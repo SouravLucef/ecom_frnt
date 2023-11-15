@@ -8,7 +8,7 @@ function App() {
       <BrowserRouter>
       <Nav/>
       <Routes>
-        <Route path="/" element={<h1>Home Page</h1>}></Route>
+      <Route path="/" element={<h1>Home Page</h1>}></Route>
         <Route path="/catagories" element={<h1>Categories</h1>}></Route>
         <Route path="/addproduct" element={<h1>Add Products</h1>}></Route>
         <Route path="/logout" element={<h1>Logout</h1>}></Route>
