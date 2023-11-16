@@ -1,8 +1,8 @@
 
 import './App.css';
-import Nav from './Nav'
-import Footer from './Footer'
+import Nav from './Nav';
 import { BrowserRouter,Routes ,Route} from 'react-router-dom';
+import Foooter from './Foooter';
 function App() {
   return (
     <div className="App">
@@ -17,7 +17,7 @@ function App() {
       </Routes>
       {/* <h1>Home Page</h1> */}
       </BrowserRouter>
-      <Footer/>
+      <Foooter />
     </div>
   );
 }

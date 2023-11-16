@@ -11,7 +11,7 @@
     padding: 5px;
 }
 
-.nav-ul{
+.nav-ul ul{
   padding: 5px;
   margin: 0;
   background-color: skyblue;
@@ -22,6 +22,13 @@
   }
 }
 
+.footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: skyblue;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
