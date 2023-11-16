@@ -1,6 +1,7 @@
 
 import './App.css';
 import Nav from './Nav'
+import Footer from './Footer'
 import { BrowserRouter,Routes ,Route} from 'react-router-dom';
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       </Routes>
       {/* <h1>Home Page</h1> */}
       </BrowserRouter>
+      <Footer/>
     </div>
   );
 }
