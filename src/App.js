@@ -1,8 +1,8 @@
 
 import './App.css';
-import Nav from './Nav';
+import Nav from './components/Nav';
 import { BrowserRouter,Routes ,Route} from 'react-router-dom';
-import Foooter from './Foooter';
+import Foooter from './components/Foooter';
 function App() {
   return (
     <div className="App">
