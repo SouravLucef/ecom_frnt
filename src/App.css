@@ -7,7 +7,7 @@
 }
 
 .nav-ul li a{
-    color: blue;
+    color: rgb(93, 93, 243);
     padding: 5px;
 }
 
@@ -29,6 +29,28 @@
   width: 100%;
   background-color: skyblue;
 }
+
+.signup{
+  margin-left: 40%;
+display: block;
+}
+.inputbox{
+  display: block;
+    margin: 22px;
+    padding: 9px;
+    width: 300px;
+    border: 2px solid skyblue;
+}
+.Signbutton{
+  margin: 22px;
+    padding: 10px;
+    width: 300px;
+    background-color: skyblue;
+    border: aqua;
+    cursor: pointer;
+
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
