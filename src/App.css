@@ -34,6 +34,9 @@
   margin-left: 40%;
 display: block;
 }
+.signup h1{
+  margin-left: 14%;
+}
 .inputbox{
   display: block;
     margin: 22px;
@@ -42,9 +45,9 @@ display: block;
     border: 2px solid skyblue;
 }
 .Signbutton{
-  margin: 22px;
-    padding: 10px;
-    width: 300px;
+  margin: 21px;
+    padding: 12px;
+    width: 325px;
     background-color: skyblue;
     border: aqua;
     cursor: pointer;
