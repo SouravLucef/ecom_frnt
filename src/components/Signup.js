@@ -1,10 +1,12 @@
 import React from "react";
 import { useState } from "react";
+import {useNavigate} from 'react-router-dom';
 
 const Signup = () => {
     const [name, setName] = useState("");
     const [password, setPassword] = useState("");
     const [email, setEmail] = useState("");
+    const navigate =useNavigate();
 
 
     const collectData = async () => {
@@ -18,7 +20,11 @@ const Signup = () => {
             },
         })
         result = await result.json();
-        console.log(await result.json());
+        console.log(result);
+        if(result)
+        {
+            navigate('/');
+        }
     }
 
     return (
