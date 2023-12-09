@@ -5,8 +5,15 @@ const Signup =()=>{
     const [name,setName]=useState("");
     const [password,setPassword]=useState("");
     const [email,setEmail]=useState("");
+
+
     const collectData=()=>{
-        console.log(name,email,password)
+        console.log(name,email,password);  //here we will intergrate api
+        //in fetch the first parameter will have the url and the second parameter will have the body
+        const result = fetch('http://localhost:5000/register',{
+            method:'post',
+            body:JSON.stringify({name,email,password}),
+        })
     }
 
     return(
