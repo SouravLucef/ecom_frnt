@@ -23,6 +23,7 @@ const Signup = () => {
         console.log(result);
         if(result)
         {
+            localStorage.setItem("user",JSON.stringify(result)); // this will keep the data in the localstorage
             navigate('/');
         }
     }
