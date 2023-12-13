@@ -14,7 +14,8 @@ const Signup = () => {
         {
             navigate('/') //this is use to keep the page to home any other page after logged in
         }
-    })
+        
+    }) 
     const collectData = async () => {
         console.log(name, email, password);  //here we will intergrate api
         //in fetch the first parameter will have the url and the second parameter will have the body
