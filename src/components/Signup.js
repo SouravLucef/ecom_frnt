@@ -1,5 +1,5 @@
 import React from "react";
-import { useState } from "react";
+import { useState ,useEffect} from "react";
 import {useNavigate} from 'react-router-dom';
 
 const Signup = () => {
@@ -8,7 +8,13 @@ const Signup = () => {
     const [email, setEmail] = useState("");
     const navigate =useNavigate();
 
-
+    useEffect(()=>{
+        const auth=localStorage.getItem('user');
+        if(auth)
+        {
+            navigate('/') //this is use to keep the page to home any other page after logged in
+        }
+    })
     const collectData = async () => {
         console.log(name, email, password);  //here we will intergrate api
         //in fetch the first parameter will have the url and the second parameter will have the body
